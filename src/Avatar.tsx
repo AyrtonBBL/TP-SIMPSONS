@@ -8,10 +8,9 @@ function Avatar(props: AvatarProps) {
  return (
  <section>
     <img src= {props.image} alt={props.firstName}/>
- <p>
-     {props.firstName}
-{props.lastName}
- </p>
+ <h1>
+     {props.firstName} {props.lastName}
+ </h1>
  </section>
  );
 }
