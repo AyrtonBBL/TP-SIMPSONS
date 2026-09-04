@@ -22,11 +22,13 @@ function App() {
  firstName={bart.firstName}
  lastName={bart.lastName}
  image={bart.Image}
+ initialDonuts={0}
  />
  <Avatar
  firstName={homer.firstName}
  lastName={homer.lastName}
  image={homer.Image}
+ initialDonuts={4200}
  />
  </section>
  );
